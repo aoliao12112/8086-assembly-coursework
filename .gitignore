@@ -1,0 +1,28 @@
+# Third-party DOS toolchain
+MASM/
+
+# MASM build products
+*.OBJ
+*.EXE
+*.LST
+*.MAP
+
+# Visual Studio build products and user state
+.vs/
+Debug/
+Release/
+x64/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+
+# Temporary test captures kept outside results/
+WORK/*.OUT
+WORK/*.out
+WORK/*_build.txt
+WORK/*_output.txt
+WORK/*_BU.TXT
+WORK/*_OU.TXT
+WORK/*_B.TXT
+

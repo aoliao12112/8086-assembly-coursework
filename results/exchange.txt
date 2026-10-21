@@ -1,0 +1,11 @@
+Verified cases:
+
+Hex FF -> Dec 255
+Dec 255 -> Hex 00FF
+Hex FFFF -> Dec 65535
+Dec 65535 -> Hex FFFF
+
+Build result:
+0 Warning Errors
+0 Severe Errors
+

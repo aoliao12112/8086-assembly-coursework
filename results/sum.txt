@@ -1,0 +1,11 @@
+Verified menu branches:
+
+1. Register: Sum 1..100 = 5050
+2. Data segment: Sum 1..100 = 5050; hexadecimal = 13BAH
+3. Stack: Sum 1..100 = 5050; popped result = 5050
+4. Input n=100: Sum 1..n = 5050
+
+Build result:
+0 Warning Errors
+0 Severe Errors
+
