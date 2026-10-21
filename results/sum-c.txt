@@ -1,0 +1,6 @@
+Visual Studio x86 Debug C verification
+Date: 2026-10-21
+
+1 + 2 + ... + 100 = 5050
+Input n (1-100): 100
+1 + 2 + ... + 100 = 5050

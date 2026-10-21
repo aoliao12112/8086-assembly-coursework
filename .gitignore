@@ -12,6 +12,7 @@ MASM/
 Debug/
 Release/
 x64/
+build-c/
 *.user
 *.suo
 *.VC.db
