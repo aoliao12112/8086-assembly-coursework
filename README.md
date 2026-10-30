@@ -10,6 +10,7 @@
 | 作业题目 2 | 每行 13 个字符打印小写 ASCII 表 | `WORK/ASCII.ASM`、`WORK/ASCIIJ.ASM`、C 版本 | [查看说明](assignments/02-ascii-table/README.md) |
 | 课堂练习 | 十六进制与十进制互相转换 | `WORK/exchange.asm` | [查看说明](assignments/class-number-conversion/README.md) |
 | 作业题目 3 | 求和、不同位置存储结果、用户输入、C 反汇编 | `WORK/sum.asm`、`WORK/SumC/sum.c` | [查看说明](assignments/03-sum/README.md) |
+| 作业题目 4 | 九九乘法表、`MUL`、`CALL/RET`、寄存器保护 | `WORK/MUL9.ASM`、`WORK/MultiplyTableC/mul9.c` | [查看说明](assignments/04-multiplication-procedure/README.md) |
 
 实际运行记录保存在 [`results`](results/)；所有汇编源程序均已重新汇编、链接并运行验证。
 
@@ -49,7 +50,8 @@ q                 ; 退出 DEBUG
 - `ASCIIJ.ASM`：用 `DEC` + `JNZ` 得到相同结果
 - `exchange.asm`：通过 `FF ↔ 255` 和 `FFFF ↔ 65535` 测试
 - `sum.asm`：寄存器、数据段、栈和用户输入四条路径均得到 `5050`；十六进制为 `13BAH`
-- 两个 C 程序均以 Win32/x86 方式生成并运行，反汇编摘录见对应作业说明
+- `MUL9.ASM`：用双重循环和 `MUL` 输出九九乘法表，并通过 `CALL/RET` 调用过程
+- C 程序均以 Win32/x86 方式生成并运行，反汇编摘录见对应作业说明
 
 > 注意：Visual Studio 生成的是现代 **32 位 x86** 汇编，不是 8086 指令；它适合观察 C 的循环、比较、跳转和函数调用如何被翻译。
 
