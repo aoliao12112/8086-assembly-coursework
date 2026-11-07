@@ -1,0 +1,31 @@
+MASM 5.0 / DOSBox 0.74 verification
+Date: 2026-11-07
+
+Assembler summary:
+0 Warning Errors
+0 Severe Errors
+
+Case n=1:
+Fibonacci sequence:
+0
+
+Case n=10:
+Fibonacci sequence:
+0 1 1 2 3 5 8 13 21 34
+
+Case n=100:
+Exactly 100 numeric terms were produced.
+Last 10 terms:
+2880067194370816120
+4660046610375530309
+7540113804746346429
+12200160415121876738
+19740274219868223167
+31940434634990099905
+51680708854858323072
+83621143489848422977
+135301852344706746049
+218922995834555169026
+
+Case n=0:
+Input error: n must be 1..100.

@@ -1,0 +1,13 @@
+Visual Studio Win32/x86 Debug C verification
+Date: 2026-11-07
+
+Case n=10:
+Fibonacci sequence:
+0 1 1 2 3 5 8 13 21 34
+
+Case n=100:
+Exactly 100 numeric terms were produced.
+Last term: 218922995834555169026
+
+The generated x86 listing contains a recursive:
+call _print_sequence
